@@ -1,0 +1,1902 @@
+[
+  {
+    "type": "background",
+    "layout": {
+      "default": {
+        "width": 1600,
+        "height": 1920,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    }
+  },
+  {
+    "type": "rarity-particle-container",
+    "layout": {
+      "default": {
+        "width": 1600,
+        "height": 1920,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "options": {
+      "spawnRate": 20
+    }
+  },
+  {
+    "type": "rarity-aura",
+    "layout": {
+      "default": {
+        "width": 2400,
+        "height": 2400,
+        "anchor": 0.5,
+        "position": {
+          "x": 800,
+          "y": 800
+        }
+      }
+    }
+  },
+  {
+    "type": "hero",
+    "layout": {
+      "default": {
+        "width": 2000,
+        "height": 2400,
+        "position": {
+          "x": -200,
+          "y": 0
+        }
+      }
+    }
+  },
+  {
+    "type": "back-button",
+    "layout": {
+      "default": {
+        "width": 175,
+        "height": 175,
+        "position": {
+          "x": 240,
+          "y": 30
+        }
+      }
+    }
+  },
+  {
+    "type": "magnify-button",
+    "layout": {
+      "default": {
+        "width": 150,
+        "height": 150,
+        "position": {
+          "x": 257,
+          "y": 197
+        }
+      }
+    }
+  },
+  {
+    "type": "favorite-button",
+    "layout": {
+      "default": {
+        "width": 150,
+        "height": 150,
+        "position": {
+          "x": 128.5,
+          "y": 168.5
+        }
+      }
+    }
+  },
+  {
+    "type": "duo-conversation-button",
+    "layout": {
+      "default": {
+        "width": 150,
+        "height": 150,
+        "position": {
+          "x": 257,
+          "y": 477
+        }
+      }
+    }
+  },
+  {
+    "type": "tap-container",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 989,
+          "y": 34
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "backdrop",
+        "layout": {
+          "default": {
+            "width": 343,
+            "height": 75
+          }
+        },
+        "tags": [
+          "tap-backdrop"
+        ],
+        "options": {
+          "variant": "empty",
+          "leftWidth": 30,
+          "rightWidth": 30,
+          "topHeight": 37.5,
+          "bottomHeight": 37.5
+        }
+      },
+      {
+        "type": "speech-bubble-icon",
+        "layout": {
+          "default": {
+            "width": 75,
+            "height": 75,
+            "position": {
+              "x": 16,
+              "y": -4
+            }
+          }
+        },
+        "tags": [
+          "tap-speech-bubble"
+        ]
+      },
+      {
+        "type": "text",
+        "layout": {
+          "default": {
+            "anchor": 0.5,
+            "position": {
+              "x": 195,
+              "y": 36.5
+            }
+          }
+        },
+        "tags": [
+          "tap-text"
+        ],
+        "options": {
+          "variant": "white",
+          "fontSize": 40,
+          "value": "Tap!"
+        }
+      }
+    ]
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 675,
+        "height": 450,
+        "position": {
+          "x": 235,
+          "y": 705
+        }
+      }
+    },
+    "options": {
+      "asset": "1|banner"
+    }
+  },
+  {
+    "type": "rarity-icon",
+    "layout": {
+      "default": {
+        "width": 84,
+        "height": 84,
+        "position": {
+          "x": 350,
+          "y": 754
+        }
+      }
+    },
+    "options": {
+      "index": 0
+    }
+  },
+  {
+    "type": "rarity-icon",
+    "layout": {
+      "default": {
+        "width": 84,
+        "height": 84,
+        "position": {
+          "x": 406,
+          "y": 754
+        }
+      }
+    },
+    "options": {
+      "index": 1
+    }
+  },
+  {
+    "type": "rarity-icon",
+    "layout": {
+      "default": {
+        "width": 84,
+        "height": 84,
+        "position": {
+          "x": 462,
+          "y": 754
+        }
+      }
+    },
+    "options": {
+      "index": 2
+    }
+  },
+  {
+    "type": "rarity-icon",
+    "layout": {
+      "default": {
+        "width": 84,
+        "height": 84,
+        "position": {
+          "x": 518,
+          "y": 754
+        }
+      }
+    },
+    "options": {
+      "index": 3
+    }
+  },
+  {
+    "type": "rarity-icon",
+    "layout": {
+      "default": {
+        "width": 84,
+        "height": 84,
+        "position": {
+          "x": 574,
+          "y": 754
+        }
+      }
+    },
+    "options": {
+      "index": 4
+    }
+  },
+  {
+    "type": "hero-name",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 590,
+          "y": 992
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 52
+    }
+  },
+  {
+    "type": "hero-title",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 550,
+          "y": 874
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 52
+    }
+  },
+  {
+    "type": "summoner-support-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-2_slot-2": {
+          "width": 220,
+          "height": 240,
+          "position": {
+            "x": 936,
+            "y": 863
+          }
+        },
+        "badges-3_slot-3": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 852,
+            "y": 887
+          }
+        },
+        "badges-4_slot-4": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 934,
+            "y": 744
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "ally-support-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-2_slot-2": {
+          "width": 220,
+          "height": 240,
+          "position": {
+            "x": 936,
+            "y": 863
+          }
+        },
+        "badges-3_slot-2": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1004,
+            "y": 887
+          }
+        },
+        "badges-3_slot-3": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 852,
+            "y": 887
+          }
+        },
+        "badges-4_slot-3": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1086,
+            "y": 744
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "duo-hero-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-2_slot-2": {
+          "width": 220,
+          "height": 240,
+          "position": {
+            "x": 936,
+            "y": 863
+          }
+        },
+        "badges-3_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1166,
+            "y": 889
+          }
+        },
+        "badges-3_slot-2": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1004,
+            "y": 887
+          }
+        },
+        "badges-4_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1160,
+            "y": 908
+          }
+        },
+        "badges-4_slot-2": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1008,
+            "y": 908
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "blessing-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-3_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1166,
+            "y": 889
+          }
+        },
+        "badges-4_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1160,
+            "y": 908
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "legendary-hero-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-3_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1166,
+            "y": 889
+          }
+        },
+        "badges-4_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1160,
+            "y": 908
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "mythic-hero-badge",
+    "layout": {
+      "default": {
+        "width": 220,
+        "height": 240,
+        "position": {
+          "x": 1126,
+          "y": 863
+        }
+      },
+      "adjustments": {
+        "badges-3_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1166,
+            "y": 889
+          }
+        },
+        "badges-4_slot-1": {
+          "width": 176,
+          "height": 192,
+          "position": {
+            "x": 1160,
+            "y": 908
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 1131,
+        "height": 646,
+        "position": {
+          "x": 235,
+          "y": 1127
+        }
+      }
+    },
+    "options": {
+      "variant": "window_blue",
+      "leftWidth": 75,
+      "rightWidth": 75,
+      "topHeight": 75,
+      "bottomHeight": 75
+    }
+  },
+  {
+    "type": "stack-container",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 267,
+          "y": 1098
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "container",
+        "layout": {
+          "default": {}
+        },
+        "children": [
+          {
+            "type": "level-backdrop",
+            "layout": {
+              "default": {
+                "width": 409,
+                "height": 80,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              },
+              "adjustments": {
+                "accessory": {
+                  "width": 447
+                }
+              }
+            },
+            "options": {
+              "variant": "blue",
+              "leftWidth": 50,
+              "rightWidth": 50,
+              "topHeight": 40,
+              "bottomHeight": 40
+            }
+          },
+          {
+            "type": "weapon-type-icon",
+            "layout": {
+              "default": {
+                "width": 55,
+                "height": 55,
+                "position": {
+                  "x": 20,
+                  "y": 11
+                }
+              }
+            }
+          },
+          {
+            "type": "text",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 97,
+                  "y": 8.5
+                }
+              }
+            },
+            "options": {
+              "variant": "white",
+              "fontSize": 36,
+              "value": "LV."
+            }
+          },
+          {
+            "type": "level-value",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 121.5,
+                  "y": 16.5
+                }
+              }
+            },
+            "options": {
+              "variant": "white",
+              "alignment": "right",
+              "digitWidth": 34,
+              "digitHeight": 42,
+              "digitSpacing": 28
+            }
+          },
+          {
+            "type": "merge-value",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 233,
+                  "y": 16.5
+                }
+              }
+            },
+            "options": {
+              "variant": "white",
+              "alignment": "left",
+              "includePlus": true,
+              "digitWidth": 34,
+              "digitHeight": 42,
+              "digitSpacing": 28
+            }
+          },
+          {
+            "type": "movement-type-icon",
+            "layout": {
+              "default": {
+                "width": 55,
+                "height": 55,
+                "position": {
+                  "x": 335,
+                  "y": 12
+                }
+              },
+              "adjustments": {
+                "accessory": {
+                  "position": {
+                    "x": 325,
+                    "y": 12
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "accessory-type-icon",
+            "layout": {
+              "default": {
+                "width": 55,
+                "height": 55,
+                "position": {
+                  "x": 375,
+                  "y": 13
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "dragonflower-container",
+        "layout": {
+          "default": {}
+        },
+        "children": [
+          {
+            "type": "backdrop",
+            "layout": {
+              "default": {
+                "width": 227,
+                "height": 80,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              }
+            },
+            "options": {
+              "variant": "blue",
+              "leftWidth": 50,
+              "rightWidth": 50,
+              "topHeight": 40,
+              "bottomHeight": 40
+            }
+          },
+          {
+            "type": "dragonflower-icon",
+            "layout": {
+              "default": {
+                "width": 80,
+                "height": 80,
+                "position": {
+                  "x": 29,
+                  "y": 0
+                }
+              }
+            }
+          },
+          {
+            "type": "dragonflower-value",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 107,
+                  "y": 17
+                }
+              }
+            },
+            "options": {
+              "variant": "white",
+              "alignment": "left",
+              "includePlus": true,
+              "digitWidth": 34,
+              "digitHeight": 42,
+              "digitSpacing": 28
+            }
+          }
+        ]
+      },
+      {
+        "type": "experience-container",
+        "layout": {
+          "default": {}
+        },
+        "children": [
+          {
+            "type": "backdrop",
+            "layout": {
+              "default": {
+                "width": 407,
+                "height": 80,
+                "position": {
+                  "x": 0,
+                  "y": 0
+                }
+              }
+            },
+            "options": {
+              "variant": "blue",
+              "leftWidth": 50,
+              "rightWidth": 50,
+              "topHeight": 40,
+              "bottomHeight": 40
+            }
+          },
+          {
+            "type": "text",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 47,
+                  "y": 9
+                }
+              }
+            },
+            "options": {
+              "variant": "white",
+              "fontSize": 36,
+              "value": "EXP"
+            }
+          },
+          {
+            "type": "text",
+            "layout": {
+              "default": {
+                "position": {
+                  "x": 209,
+                  "y": 9
+                }
+              }
+            },
+            "tags": [
+              "max-level"
+            ],
+            "options": {
+              "variant": "white",
+              "fontSize": 36,
+              "value": "MAX"
+            }
+          },
+          {
+            "type": "container",
+            "layout": {
+              "default": {}
+            },
+            "children": [
+              {
+                "type": "text",
+                "layout": {
+                  "default": {
+                    "position": {
+                      "x": 156,
+                      "y": 4
+                    }
+                  }
+                },
+                "options": {
+                  "variant": "white",
+                  "fontSize": 32,
+                  "value": "Next:"
+                }
+              },
+              {
+                "type": "experience-value",
+                "layout": {
+                  "default": {
+                    "position": {
+                      "x": 268,
+                      "y": 15
+                    }
+                  }
+                },
+                "options": {
+                  "variant": "white",
+                  "alignment": "right",
+                  "digitWidth": 25.7,
+                  "digitHeight": 30,
+                  "digitSpacing": 22
+                }
+              },
+              {
+                "type": "experience-bar",
+                "layout": {
+                  "default": {
+                    "width": 200,
+                    "height": 12,
+                    "position": {
+                      "x": 160,
+                      "y": 52
+                    }
+                  }
+                }
+              }
+            ],
+            "tags": [
+              "sub-max-level"
+            ]
+          }
+        ]
+      }
+    ],
+    "options": {
+      "direction": "row",
+      "spacing": -7
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1188
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "statistic-label",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 466,
+          "y": 1227
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "statistic": 1
+    }
+  },
+  {
+    "type": "statistic-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1206
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28,
+      "statistic": 1
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1262
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "statistic-label",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 466,
+          "y": 1301
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "statistic": 2
+    }
+  },
+  {
+    "type": "statistic-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1280
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28,
+      "statistic": 2
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1336
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "statistic-label",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 467,
+          "y": 1375
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "statistic": 3
+    }
+  },
+  {
+    "type": "statistic-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1354
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28,
+      "statistic": 3
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1410
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "statistic-label",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 466,
+          "y": 1449
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "statistic": 4
+    }
+  },
+  {
+    "type": "statistic-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1428
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28,
+      "statistic": 4
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1484
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "statistic-label",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 466,
+          "y": 1523
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "statistic": 5
+    }
+  },
+  {
+    "type": "statistic-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1502
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28,
+      "statistic": 5
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1558
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "text",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 466,
+          "y": 1597
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "value": "SP"
+    }
+  },
+  {
+    "type": "skill-points-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1576
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 407,
+        "height": 80,
+        "position": {
+          "x": 337,
+          "y": 1632
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 96,
+        "height": 96,
+        "position": {
+          "x": 340,
+          "y": 1621
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_hero-merit"
+    }
+  },
+  {
+    "type": "text",
+    "layout": {
+      "default": {
+        "anchor": 0.5,
+        "position": {
+          "x": 467,
+          "y": 1671
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "value": "HM"
+    }
+  },
+  {
+    "type": "hero-merit-value",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 545,
+          "y": 1650
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "alignment": "right",
+      "digitWidth": 34,
+      "digitHeight": 42,
+      "digitSpacing": 28
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1188
+        }
+      }
+    },
+    "options": {
+      "variant": "red",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "skill-icon",
+    "layout": {
+      "default": {
+        "width": 75,
+        "height": 75,
+        "position": {
+          "x": 809,
+          "y": 1188
+        }
+      }
+    },
+    "options": {
+      "skillType": 1
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1198
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 1,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1262
+        }
+      }
+    },
+    "options": {
+      "variant": "green",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 75,
+        "height": 75,
+        "position": {
+          "x": 809,
+          "y": 1262
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_skill_assist"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1272
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 2,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1336
+        }
+      }
+    },
+    "options": {
+      "variant": "purple",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 75,
+        "height": 75,
+        "position": {
+          "x": 809,
+          "y": 1336
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_skill_special"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1346
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 3,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1410
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "skill-icon",
+    "layout": {
+      "default": {
+        "width": 76,
+        "height": 76,
+        "position": {
+          "x": 808,
+          "y": 1409
+        }
+      }
+    },
+    "options": {
+      "skillType": 4
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 48,
+        "height": 48,
+        "position": {
+          "x": 847,
+          "y": 1447
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_passive-a"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1420
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 4,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1484
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "skill-icon",
+    "layout": {
+      "default": {
+        "width": 76,
+        "height": 76,
+        "position": {
+          "x": 808,
+          "y": 1483
+        }
+      }
+    },
+    "options": {
+      "skillType": 5
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 48,
+        "height": 48,
+        "position": {
+          "x": 846,
+          "y": 1522
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_passive-b"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1494
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 5,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1558
+        }
+      }
+    },
+    "options": {
+      "variant": "blue",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "skill-icon",
+    "layout": {
+      "default": {
+        "width": 76,
+        "height": 76,
+        "position": {
+          "x": 808,
+          "y": 1557
+        }
+      }
+    },
+    "options": {
+      "skillType": 6
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 48,
+        "height": 48,
+        "position": {
+          "x": 846,
+          "y": 1594
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_passive-c"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1568
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 6,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 487,
+        "height": 80,
+        "position": {
+          "x": 777,
+          "y": 1632
+        }
+      }
+    },
+    "options": {
+      "variant": "yellow",
+      "leftWidth": 50,
+      "rightWidth": 50,
+      "topHeight": 40,
+      "bottomHeight": 40
+    }
+  },
+  {
+    "type": "skill-icon",
+    "layout": {
+      "default": {
+        "width": 75,
+        "height": 75,
+        "position": {
+          "x": 809,
+          "y": 1633
+        }
+      }
+    },
+    "options": {
+      "skillType": 7
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 48,
+        "height": 48,
+        "position": {
+          "x": 847,
+          "y": 1669
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_sacred-seal"
+    }
+  },
+  {
+    "type": "skill-name",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 886,
+          "y": 1642
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "skillType": 7,
+      "value": "-"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 370,
+        "height": 90,
+        "position": {
+          "x": 264,
+          "y": 1722
+        }
+      }
+    },
+    "options": {
+      "variant": "button",
+      "leftWidth": 55,
+      "rightWidth": 55,
+      "topHeight": 45,
+      "bottomHeight": 45
+    }
+  },
+  {
+    "type": "text",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 355,
+          "y": 1734
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "value": "Skill Sets"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 370,
+        "height": 90,
+        "position": {
+          "x": 618,
+          "y": 1722
+        }
+      }
+    },
+    "options": {
+      "variant": "button",
+      "leftWidth": 55,
+      "rightWidth": 55,
+      "topHeight": 45,
+      "bottomHeight": 45
+    }
+  },
+  {
+    "type": "text",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 670,
+          "y": 1734
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "value": "Change Skills"
+    }
+  },
+  {
+    "type": "backdrop",
+    "layout": {
+      "default": {
+        "width": 370,
+        "height": 90,
+        "position": {
+          "x": 972,
+          "y": 1722
+        }
+      }
+    },
+    "options": {
+      "variant": "button",
+      "leftWidth": 55,
+      "rightWidth": 55,
+      "topHeight": 45,
+      "bottomHeight": 45
+    }
+  },
+  {
+    "type": "text",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 1040,
+          "y": 1734
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 36,
+      "value": "Learn Skills"
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 50,
+        "height": 50,
+        "position": {
+          "x": 284,
+          "y": 1812
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_voice-actor"
+    }
+  },
+  {
+    "type": "voice-actor",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 326,
+          "y": 1809
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 32
+    }
+  },
+  {
+    "type": "icon",
+    "layout": {
+      "default": {
+        "width": 50,
+        "height": 50,
+        "position": {
+          "x": 283,
+          "y": 1857
+        }
+      }
+    },
+    "options": {
+      "asset": "2|icon_artist"
+    }
+  },
+  {
+    "type": "artist",
+    "layout": {
+      "default": {
+        "position": {
+          "x": 326,
+          "y": 1853
+        }
+      }
+    },
+    "options": {
+      "variant": "white",
+      "fontSize": 32
+    }
+  }
+]
