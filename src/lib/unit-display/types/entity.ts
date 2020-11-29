@@ -20,6 +20,7 @@ export type EntityConstructor = {
 export type EntityProps = {
   layout: Layout;
   tags: string[];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   options: any;
 };
 
