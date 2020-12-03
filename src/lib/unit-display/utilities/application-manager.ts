@@ -101,10 +101,9 @@ const initialState: State = {
 
 class ApplicationManager {
   private readonly _application: Application;
-
-  private readonly _state: State;
   private readonly _messageBus: MessageBus;
 
+  private _state: State;
   private _entities: IEntity[];
   private _messageQueue: Message[];
 
@@ -342,6 +341,21 @@ class ApplicationManager {
 
       case "SET_SPEED_MODIFIER": {
         this._state.statistics.speedModifier = message.value;
+        break;
+      }
+
+      case "SET_STATE": {
+        this._state = message.value;
+
+        const context: Context = {
+          state: this._state,
+          delta: 0,
+        };
+
+        for (const entity of this._entities) {
+          entity.render(context);
+        }
+
         break;
       }
 

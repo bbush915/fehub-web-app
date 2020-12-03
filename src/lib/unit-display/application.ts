@@ -7,6 +7,7 @@ const application = new Application({
   width: 1600,
   height: 1920,
   resolution: 2,
+  preserveDrawingBuffer: true,
 });
 
 application.renderer.plugins.interaction.autoPreventDefault = false;

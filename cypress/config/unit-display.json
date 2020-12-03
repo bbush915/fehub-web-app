@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "title": "should render Lucina - Brave Princess",
+      "state": {
+        "hero": {
+          "name": "Lucina",
+          "title": "Brave Princess",
+          "summonerSupport": null,
+          "allySupport": null,
+          "blessing": null,
+          "favoriteMark": null,
+          "accessoryType": null
+        },
+        "statistics": {
+          "rarity": 5,
+          "level": 40,
+          "merges": 0,
+          "dragonflowers": 0,
+          "asset": "Hit Points",
+          "flaw": "Resistance",
+          "skillPoints": 292,
+          "heroMerit": 51
+        },
+        "skills": {
+          "weapon": null,
+          "refine": null,
+          "assist": null,
+          "special": null,
+          "passiveA": null,
+          "passiveB": null,
+          "passiveC": null,
+          "sacredSeal": null
+        }
+      },
+      "snapshot": "lucina_brave-princess"
+    },
+    {
+      "title": "should render Tanya - Dagdar's Kid",
+      "state": {
+        "hero": {
+          "name": "Tanya",
+          "title": "Dagdar's Kid",
+          "summonerSupport": null,
+          "allySupport": null,
+          "blessing": null,
+          "favoriteMark": "",
+          "accessoryType": null
+        },
+        "statistics": {
+          "rarity": 3,
+          "level": 1,
+          "merges": 0,
+          "dragonflowers": 0,
+          "asset": "Defense",
+          "flaw": "Attack",
+          "skillPoints": 0,
+          "heroMerit": 54
+        },
+        "skills": {
+          "weapon": "Steel Bow",
+          "refine": null,
+          "assist": "",
+          "special": "",
+          "passiveA": "",
+          "passiveB": "",
+          "passiveC": "",
+          "sacredSeal": null
+        }
+      },
+      "snapshot": "tanya_dagdar's-kid"
+    }
+  ]
+}

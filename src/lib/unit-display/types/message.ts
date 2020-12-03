@@ -12,6 +12,7 @@ import {
   WeaponRefineTypes,
   Weapons,
 } from "types";
+import State from "./state";
 
 export type Message =
   | { type: "SET_ACCESSORY_TYPE"; value: AccessoryTypes }
@@ -56,6 +57,7 @@ export type Message =
   | { type: "SET_SPECIAL"; value: { id: string | null; name: string } }
   | { type: "SET_SPEED"; value: number }
   | { type: "SET_SPEED_MODIFIER"; value: number }
+  | { type: "SET_STATE"; value: State }
   | { type: "SET_SUMMONER_SUPPORT_RANK"; value: SummonerSupportRanks }
   | { type: "SET_TEMPLATE"; value: "default" }
   | { type: "SET_VOICE_ACTOR"; value: string }

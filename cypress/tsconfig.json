@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": ["es5", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "target": "es6",
     "types": ["cypress"]
   },
+
   "include": [
     "**/*.ts"
   ]
